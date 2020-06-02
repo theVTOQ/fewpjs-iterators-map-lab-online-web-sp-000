@@ -18,6 +18,6 @@ const titleCased = () => {
     words.forEach(word => {
       capitalized.push(word[0].toUpperCase() + word.slice(1))
     });
-    return capitalized;
+    return capitalized.join(' ');
   })
 }
